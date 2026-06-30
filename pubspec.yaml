@@ -1,9 +1,15 @@
 name: content_disposition
 description: >-
-  Cross-platform (web, mobile, desktop) parser for the HTTP Content-Disposition
-  header. Pure Dart, no dart:io. Supports RFC 6266 filename and filename*.
+  Cross-platform parser for the HTTP Content-Disposition header. Pure Dart, no
+  dart:io, with RFC 6266 filename and filename* (RFC 5987) support.
 version: 0.1.0
-publish_to: none
+repository: https://github.com/Barba-Tech-CO/content_disposition
+issue_tracker: https://github.com/Barba-Tech-CO/content_disposition/issues
+
+topics:
+  - http
+  - parser
+  - header
 
 environment:
   sdk: ^3.0.0
